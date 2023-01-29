@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 2000px;
+}
+nav {
+    position: sticky;
+    top: 0%;
+}
+ul{
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li:hover{
+    background-color: rgb(207, 131, 131);
+    padding: 2px;
+    border-radius: 15px;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* start hero section */
+.hero{
+    height: 830px;
+    background-image: url('../images/2.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+.about_us{
+    text-align: center;
+    width: 80%; 
+    margin: auto;
+    margin-top: 50px;
+}
+.about_us h1{
+    margin-bottom: 30px;
+    color: rgb(228, 126, 126);
+    font-size: 35px;
+}
+.all-box{
+    display: flex;
+}
+.box{
+    width: 30%;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: auto;
+    background-color: rgb(243, 222, 222);
+}
+.box:hover{
+    background-color: rgb(233, 173, 173);
+    box-shadow: 10px 10px 5px rgb(247, 203, 203);
+}
+.box i{
+    background-color:rgb(255, 253, 250);
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: rgb(126, 78, 78);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box h3{
+    font-size: 20px;
+    color: rgb(83, 46, 46);
+    margin-top: 10px;
+
+} 
+
+/* .box p{
+
+    } */
+
+    /* start content */
+.content{
+text-align: center;
+margin-top: 50px;
+width: 80%;
+margin: auto;
+margin-top: 50px;
+
+}
+.content h1{
+margin-bottom: 30px;
+    color: rgb(241, 210, 210);;
+    font-size: 35px;
+}
+.content p{
+margin-bottom: 20px;
+}
+.content img{
+width: 200px;
+height: 150px;
+}
+/* End content */
+
+/* start contact-us */
+.contact-us{
+margin-top: 50px;
+margin-bottom: 50px;
+/* text-align: center; */
+}
+.contact-us .contact-forrm{
+width: 700px;
+background-color: rgb(250, 230, 230);
+margin: auto;
+text-align: center;
+padding: 50px;
+border-radius: 20px;
+}
+.input-form input{
+width: 400px;
+height: 30px;
+border: 1px solid rgb(226, 149, 149);
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.input-form label{
+color: hsl(0, 3%, 7%);
+}
+/* .input-form input:focus{
+border: 1px solid rgb(165, 165, 165);
+outline: none;
+} */
+textarea{
+width: 400px;
+height: 200px;
+border: 1px solid rgb(226, 149, 149);
+border-radius: 10px;
+}
+.btn-send{
+background-color: rgb(241, 191, 191);
+color: rgb(20, 19, 19);
+width: 200px;
+height: 50px;
+border: 1px solid white;
+font: 20px;
+cursor: pointer;
+margin-top: 15px;
+border-radius: 5px;
+}
+.btn-send:hover{
+background-color: rgb(185, 53, 97);
+}
+/* End contact-us */
+
+/* Start footer  */
+.footer{
+background-color: rgb(10, 10, 10);
+height: 100px;
+color: white;
+text-align: center;
+line-height: 100px;
+}
+/* End footer  */
